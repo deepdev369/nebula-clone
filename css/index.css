@@ -5,28 +5,38 @@
   text-align: center;
 }
 
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 * p {
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
 }
 
 a {
   text-decoration: none;
   color: #0196d1;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*navigation bar*/
 .section0 {
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
   position: fixed;
+  background-color: white;
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  text-align: center;
-  height: 12%;
-  background: white;
+  z-index: 1;
+}
+
+.section0 button {
+  height: 2rem;
+  width: 5rem;
+}
+
+.navbar {
+  display: flex;
 }
 
 .section0 div {
@@ -37,20 +47,6 @@ a {
   width: 35%;
 }
 
-.section0 div button {
-  border: none;
-  background-color: #018ae6;
-  position: fixed;
-  right: 5%;
-  border-radius: 28px;
-  padding: 5px 6%;
-  opacity: .6;
-}
-
-.section0 div button a {
-  color: white;
-}
-
 .content {
   text-align: center;
   width: 95%;
@@ -58,7 +54,7 @@ a {
 }
 
 .content h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 19px;
   padding: 13% 8%;
   font-weight: 32x;
@@ -68,7 +64,13 @@ a {
 .parent-main .main2 {
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.418)), to(white));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0.418)),
+    to(white)
+  );
   background: linear-gradient(rgba(255, 255, 255, 0.418), white);
   position: absolute;
   top: 12%;
@@ -79,8 +81,20 @@ a {
   top: 12%;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.603)), color-stop(rgba(255, 255, 255, 0.836)), to(rgba(255, 255, 255, 0.733)));
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.733));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0.603)),
+    color-stop(rgba(255, 255, 255, 0.836)),
+    to(rgba(255, 255, 255, 0.733))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.603),
+    rgba(255, 255, 255, 0.836),
+    rgba(255, 255, 255, 0.733)
+  );
 }
 
 .parent-main .main3 h1 {
@@ -199,14 +213,14 @@ a {
 
 .section8 h2 {
   font-size: 150%;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: bold;
   padding-bottom: 4%;
 }
 
 .section8 h3 {
   font-size: 100%;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: bold;
 }
 
@@ -228,6 +242,6 @@ a {
 .section9 li a {
   font-size: 16px;
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
