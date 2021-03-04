@@ -5,25 +5,25 @@
   text-align: center;
 }
 
-body {
-  font-family: "Noto Sans KR", sans-serif;
-}
-
 * p {
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
 }
 
 a {
   text-decoration: none;
   color: #0196d1;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*navigation bar*/
 .section0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  height: 4rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 4.409rem;
   position: fixed;
   background-color: white;
   width: 100%;
@@ -31,12 +31,33 @@ a {
 }
 
 .section0 button {
-  height: 2rem;
+  height: 1.75rem;
   width: 5rem;
+  border: none;
+  background-color: #018ae6;
+  opacity: 0.5;
+  border-radius: 28px;
+  position: relative;
+  left: 15%;
+}
+
+.section0 button a {
+  color: white;
 }
 
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar h3 {
+  position: relative;
+  right: 18%;
 }
 
 .section0 div {
@@ -44,7 +65,7 @@ a {
 }
 
 .section0 div img {
-  width: 35%;
+  width: 1.35rem;
 }
 
 .content {
@@ -54,7 +75,7 @@ a {
 }
 
 .content h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 19px;
   padding: 13% 8%;
   font-weight: 32x;
@@ -64,37 +85,19 @@ a {
 .parent-main .main2 {
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(255, 255, 255, 0.418)),
-    to(white)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.418)), to(white));
   background: linear-gradient(rgba(255, 255, 255, 0.418), white);
   position: absolute;
-  top: 12%;
+  top: 8%;
 }
 
 .parent-main .main3 {
   position: absolute;
-  top: 12%;
+  top: 8%;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(rgba(255, 255, 255, 0.603)),
-    color-stop(rgba(255, 255, 255, 0.836)),
-    to(rgba(255, 255, 255, 0.733))
-  );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.603),
-    rgba(255, 255, 255, 0.836),
-    rgba(255, 255, 255, 0.733)
-  );
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.603)), color-stop(rgba(255, 255, 255, 0.836)), to(rgba(255, 255, 255, 0.733)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.733));
 }
 
 .parent-main .main3 h1 {
@@ -213,14 +216,14 @@ a {
 
 .section8 h2 {
   font-size: 150%;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
   padding-bottom: 4%;
 }
 
 .section8 h3 {
   font-size: 100%;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
 }
 
@@ -242,6 +245,6 @@ a {
 .section9 li a {
   font-size: 16px;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*# sourceMappingURL=index.css.map */
