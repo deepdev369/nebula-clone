@@ -1,0 +1,241 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    text-align: center;
+    p {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 15px;
+    }
+}
+a {
+    text-decoration: none;
+    color: rgb(1, 150, 209);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/*navigation bar*/
+.section0 {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    height: 12%;
+    background:white;
+    div {
+        padding-top: 25px;
+        img {
+            width: 35%;
+        }
+        button {
+            border: none;
+            background-color: rgb(1, 138, 230);
+            position: fixed;
+            right: 5%;
+            border-radius: 28px;
+            padding: 5px 6%;
+            opacity: .6;
+            a {
+                color: white;
+            }
+
+        }
+    }
+}
+
+
+.content {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+        padding: 13% 8%;
+        font-weight: 32x;
+        letter-spacing: 1.5px;
+    }
+}
+.parent-main {
+    .main2 {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.418), white);
+        position: absolute;
+        top: 12%;
+    }
+    .main3 {
+        position: absolute;
+        top: 12%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.836), rgba(255, 255, 255, 0.733));
+        h1 {
+            width: 100%;
+            margin: auto;
+            padding: 0px;
+            padding-bottom: 15%;
+            font-size: 19px;
+        }
+        .start-free-trial {
+            border: none;
+            background-color: rgb(0, 153, 255);
+            opacity: 0.5;
+            color: wheat;
+            border-radius: 28px;
+            padding: 10px 10%;
+            font-weight: bold;
+            font-size: 14px;
+        }    
+    }
+}
+
+/* Slide bar Property   */
+
+/*Rest of the property  */
+.section2 {
+    position: sticky;
+    padding-top: 20%;
+}
+
+
+.section4 {
+    font-size: 15px;
+}
+
+.section5 {
+    padding-bottom: -100%;
+    div {
+        padding-top: 18%;
+        padding-bottom: -100%;
+        h1 {
+            line-height: 180%;
+            font-size: 22px;
+            padding-bottom: -10%;
+
+        }
+    
+        
+    }
+
+}
+
+.section6 {
+    padding-top: -100%;
+    position: relative;
+    top: -100px;
+    
+}
+
+.content-pic {
+    padding-top: 0%;
+    position: relative;
+    top: -90px;
+    img {
+        padding: 0%;
+    }
+}
+
+
+.section7 {
+    background-color: rgba(192, 192, 192, 0.253);
+    position: relative;
+    top: -200%;
+    div {
+        padding: 0%;
+    }
+    h1 {
+        font-size: 25px;
+        text-align: left;
+        width: 85%;
+    }
+    p {
+        width: 85%;
+        text-align: left;
+        margin: auto;
+        line-height: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+.section7-button {
+    position: relative;
+    right: 18vw;
+    top: 18px;
+    border: none;
+    background-color: rgb(1, 138, 230);
+    opacity: 0.5;
+    color: wheat;
+    border-radius: 28px;
+    
+    padding: 10px 10%;
+
+    
+}
+
+
+.getstarted-button {
+    top: 18px;
+    border: none;
+    background-color: rgb(0, 136, 226);
+    opacity: 0.5;
+    color: wheat;
+    border-radius: 28px;
+    
+    padding: 10px 10%;
+    
+
+
+}
+
+.section8 {
+    h1 {
+        font-size: 200%;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 150%;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        padding-bottom: 4%;
+    }
+    h3 {
+        font-size: 100%;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: bold;
+        
+    }
+    p {
+        width: 85%;
+        margin: auto;
+    }
+
+    
+}
+
+
+
+.section9 {
+    background-color: rgb(0, 20, 30);
+    position: relative;
+    top:-4px;
+    li {
+        padding: 7px;
+        a {
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            ;
+        }
+    }
+}
+
+
+
+
+
+
